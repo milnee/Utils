@@ -1,0 +1,65 @@
+name: Utils
+version: '1'
+main: me.millen.utils.core.Base
+commands:
+  giveaway:
+    description: Host giveaways
+  all:
+    description: Give all potion effects
+  fr:
+    aliases: [fireresistance]
+    description: Give infinite Fire Resistance
+  sp:
+    description: Give infinite Speed
+  nv:
+    aliases: [nightvision]
+    description: Give infinite Night Vision
+  invis:
+    aliases: [invisibility]
+    description: Give infinite Invisibility
+  reload:
+    description: Reload Utils
+  spawn:
+    description: Teleport to spawn point
+  setspawn:
+    description: Set the spawn point
+permissions:
+  utils.potions:
+    description: Access to different potions commands
+    default: op
+  utils.giveaway:
+    description: Access to giveaway commands
+    default: op
+  utils.reload:
+    description: Access to reload command
+    default: op
+  utils.spawn:
+    description: Allows using /spawn command
+    default: op
+  utils.setspawn:
+    description: Allows setting spawn point
+    default: op
+  utils.potions.all:
+    description: Access to all potions command
+    default: op
+  utils.potions.fr:
+    description: Access to fire resistance command
+    default: op
+  utils.potions.fireresistance:
+    description: Access to fire resistance command
+    default: op
+  utils.potions.sp:
+    description: Access to speed potion command
+    default: op
+  utils.potions.nv:
+    description: Access to night vision command
+    default: op
+  utils.potions.nightvision:
+    description: Access to night vision command
+    default: op
+  utils.potions.invis:
+    description: Access to invisibility command
+    default: op
+  utils.potions.invisibility:
+    description: Access to invisibility command
+    default: op

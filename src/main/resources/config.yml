@@ -1,0 +1,61 @@
+#
+#   cDark made for darkend.club
+#   @author millen
+#
+
+messages:
+  no-permission: '&cPermission denied.'
+
+###################################################################
+#                                                                 #
+#                     giveaways section                           #
+#                                                                 #
+####################################################################
+
+# commands are executed by the player who started the giveaway
+mute-command: 'chat mute'
+# placeholders: {number} max number, {player} who started it
+giveaway-start:
+  - ' '
+  - ' > &7A random number between &f0-{number} &7has been chosen.'
+  - ' > &7The first person to guess the number wins a prize.'
+  - ' > &7The chat will be unmuted in &f5 &7seconds.'
+  - ' '
+unmute-command: 'chat unmute'
+# placeholders: {player} winner's name, {number} the winner number
+giveaway-win:
+  - ' '
+  - ' > &7The giveaway ended and the winner is &f{player}&7.'
+  - ' > &7The number was &f{number}&7.'
+  - ' '
+# placeholders: {player} who stopped it
+giveaway-stop:
+  - ' '
+  - ' > &7The giveaway has been forced to stop by &f{player}&7.'
+  - ' '
+
+###################################################################
+#                                                                 #
+#                   potion effects section                        #
+#                                                                 #
+####################################################################
+
+# placeholders: {effect}, {amplifier}
+enabled-effect: '&aEnabled &7{effect} &f{amplifier}&7.'
+disabled-effect: '&cDisabled &7{effect} &f{amplifier}&7.'
+# placeholders: {effects}, {nextline}
+enabled-all: '&aEnabled &7all potion effects {nextline}(&f{effects}&7).'
+disabled-all: '&cDisabled &7all potion effects {nextline}(&f{effects}&7).'
+
+###################################################################
+#                                                                 #
+#                     blockglitch section                         #
+#                                                                 #
+####################################################################
+
+# set to '' if you want no message
+deny-message: "&cBlock glitching is forbidden!"
+blockglitch-enabled:
+  entity: true
+  sign: true
+  minecart: true

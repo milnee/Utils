@@ -1,0 +1,18 @@
+###################################################################
+#                                                                 #
+#                         scripts section                         #
+#                                                                 #
+####################################################################
+
+scripts:
+  youtube:
+    permission: 'utils.youtube'
+    messages:
+      - ' '
+      - '&ctest message'
+      - ' '
+  test:
+    permission: 'utils.test'
+    messages:
+      - '&atest2'
+      - '&casd'
